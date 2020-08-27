@@ -1,0 +1,104 @@
+.main-content {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.aside {
+    background-image: url("./assets/Chrysanthemum.jpg");
+    width: 25%;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+    padding: 15px;
+    border: mintcream 0 solid;
+    margin: 0;
+}
+
+.aside h1 {
+    position: absolute;
+    top: 240px;
+    color: white;
+}
+
+.main{
+    width: 75%;
+    height: 100vh;
+    background-color: azure;
+    padding: 100px;
+    font-weight: lighter;
+    font-family: Arial;
+    letter-spacing: 1.0x;
+    color: rgb(32, 34, 34);
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.main header{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    font-size: 10px;
+}
+
+.forms {
+    padding: 20px;
+}
+.forms .form-group {
+    padding-bottom: 15px;
+}
+.forms label {
+    display: block;
+}
+.forms input {
+    padding: 5px;
+    width: 90%;
+}
+
+.buttons {
+    display: inline-flex;
+}
+.button {
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    letter-spacing: 1.5px;
+    vertical-align: middle;
+    border-radius: 10px;
+    border: rgb(14, 14, 85) 2px solid;
+    margin: 20px;
+    color: rgb(14, 14, 85);
+}
+
+.button1 {
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    letter-spacing: 1.5px;
+    vertical-align: middle;
+    border-radius: 10px;
+    border: rgb(14, 14, 85) 2px solid;
+    margin: 20px;
+    background-color: rgb(14, 14, 85);
+    color: white;
+}
+
+.bottom {
+    font-weight: bold;
+    padding: 30px;
+}
+
+.bottom a {
+    text-decoration: none;
+    padding: 5px;
+}
